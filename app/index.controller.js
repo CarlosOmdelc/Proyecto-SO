@@ -1,10 +1,10 @@
-angular.module('SOweb').controller('indexController', indexController);
+angular.module('SOweb').controller('homeController', homeController);
 
-indexController.$inject = ['$scope', '$state', '$timeout'];
+homeController.$inject = ['$scope', '$state', '$timeout'];
 var colaReady = new Array();
 var colaBlockedIO = new Array();
 
-function indexController($scope, $state, $timeout){
+function homeController($scope, $state, $timeout){
 	SO1=new SO();
 	$scope.tog=4;
 	$scope.algmem="NUR";

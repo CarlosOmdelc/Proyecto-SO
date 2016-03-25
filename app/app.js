@@ -8,11 +8,9 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRou
 		url: '/home',
     views: {
       '': { /* no caracter ni espacios coloca esta view como la default */
-        templateUrl: 'views/index.html',
-        controller: 'homeController'
+        templateUrl: 'states/home.view.html',
+    		controller: 'homeController'
       }
     }
-		templateUrl: 'views/index.html',
-		controller: 'indexController'\
 	});
 }]);

@@ -1,4 +1,4 @@
-angular.module('SOweb').js_components('onReadFile', function ($parse) {
+angular.module('SOweb').directive('onReadFile', function ($parse) {
 	return {
 		restrict: 'A',
 		scope: false,
