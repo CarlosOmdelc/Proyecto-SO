@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales
+************************************************/
+.grey-background {
+	background-color: rgba( 0, 0, 0, 0.20 ) !important;
+}
+
+
+.clickable{
+	cursor: pointer;
+}
+
+.tab-fix {
+	max-height: 85vh;
+	height: 100vh !important;
+}
+
+/* profile view */
+
+.avatar-picture {
+	background-image: url( ../images/avatar-example.jpeg );
+	background-position: center center;
+	background-size: cover;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.md-toolbar-tools {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+
+/* agent profile view */
+.agent-photo{
+	width: 100%;
+	max-width: 175px;
+	height: auto;
+	background-image: url( ../images/smith.png );
+	background-position: center center;
+	background-size: cover;
+}
+
+.remove-margin{
+	margin: 0 !important;
+}
+
+md-tabs-content-wrapper{
+	background-color: #EBEAEA;
+}
+
+.detail-label{
+	color: #A7A7A7;
+	line-height: 1;
+	font-size: 12px;
+}
+
+md-list-item .md-no-style.md-button {
+	/* fix */
+	padding: 0;
+}
+
+.detail-text{
+	line-height: 1;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-bottom: 12px
+}
+
+.animated {
+	transition: all linear 0.1s;
+}
+
+/* estilo para el md-list-item que puede editarse */
+/* info details */
+.animate-details {
+	opacity: 1;
+}
+
+.animate-details.ng-hide-add, .animate-details.ng-hide-remove {
+	transition: all linear 0.1s;
+}
+
+.animate-details.ng-hide {
+	opacity: 0;
+}
+/* inputs */
+.animate-inputs {
+	opacity: 1;
+	height: 315px;
+	max-height: 425px;
+}
+
+.animate-inputs.ng-hide-add, .animate-inputs.ng-hide-remove {
+	transition: all linear 0.1s;
+}
+
+.animate-inputs.ng-hide {
+	height: 0px;
+	opacity: 0;
+}
+/* list item selected */
+.is-selected {
+	width: 100%;
+	background-color: rgba( 0, 0, 0, 0.70 );
+}
+
+.is-selected label{
+	color: rgba( 255, 255, 255, 1 );
+}
+
+.is-selected p {
+	color: #FFFFFF;
+}
+
+.is-selected .md-char-counter{
+	color: rgba( 255, 255, 255, 0.70 );
+}
+
+.is-selected md-input-container:not(.md-input-invalid).md-input-has-value label {
+	color: rgba( 255, 255, 255, 0.70 );
+}
+
+.is-selected md-input-container:not(.md-input-invalid).md-input-focused .md-input{
+	border-color: #EFDF26;
+}
+
+.is-selected md-input-container .md-input {
+	color: #FFFFFF;
+}
+
+.is-selected md-input-container:not(.md-input-invalid).md-input-focused label{
+	color: #EFDF26;
+}
+
+/* fix para md-tab y cambiar los colores */
+md-tabs.md-moose-theme md-tabs-wrapper{
+		background-color: #009FF2;
+}
+
+md-tabs.md-moose-theme .md-tab.md-active, md-tabs.md-moose-theme .md-tab.md-active md-icon, md-tabs.md-moose-theme .md-tab.md-focused, md-tabs.md-moose-theme .md-tab.md-focused md-icon {
+    color: rgb( 255, 255, 255 );
+}
+.detail-label{
+color: #A7A7A7;
+line-height: 1;
+font-size: 12px;
+}
+
+.detail-text{
+line-height: 1;
+font-size: 14px;
+margin-top: 6px;
+margin-bottom: 12px
+}

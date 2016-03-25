@@ -12,5 +12,7 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRou
         controller: 'homeController'
       }
     }
+		templateUrl: 'views/index.html',
+		controller: 'indexController'\
 	});
 }]);
