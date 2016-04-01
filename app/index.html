@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>I Heart SO</title>
 		<!-- STYLES-->
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
 		  <link rel="stylesheet" type="text/css" href="../bower_components/angular-material/angular-material.css">
@@ -12,12 +13,14 @@
     <body>
       <div ui-view></div>
 		<!-- ANGULAR -->
-			<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-			<script src="../bower_components/angular/angular.min.js"></script>
+			<script src="../bower_components/angular/angular.js"></script>
 			<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-      <script src="../bower_components/angular-animate/angular-animate.js"></script>
-      <script src="../bower_components/angular-aria/angular-aria.js"></script>
-      <script src="../bower_components/angular-material/angular-material.js"></script>
+			<script src="../bower_components/angular-animate/angular-animate.js"></script>
+			<script src="../bower_components/angular-aria/angular-aria.js"></script>
+			<script src="../bower_components/angular-material/angular-material.js"></script>
+			<script src="../bower_components/angular-click-outside/clickoutside.directive.js"></script>
+			<!--<script src="../bower_components/jquery/dist/jquery.min.js"></script>-->
+			<!--<script src="../bower_components/angular/angular.min.js"></script>-->
 
     <!-- FIREBASE -->
 		  <script src="../bower_components/firebase/firebase.js"></script>
@@ -25,13 +28,12 @@
     <!-- ANGULARFIRE -->
 		  <script src="../bower_components/angularfire/dist/angularfire.min.js"></script>
 
-    <!-- APP -->
+			<!-- build:js js/app.js -->
 		  <script src="app.js"></script>
+			<script src="js_components/factories/autocomplete.js"></script>
+			<script src="states/home.controller.js"></script>
 
     <!-- DIRECTIVES -->
     <script src="js_components/onReadFile.js"></script>
-
-    <!-- CONTROLLERS -->
-	<script src="states/home.controller.js"></script>
   </body>
 </html>
